@@ -26,7 +26,7 @@ namespace MCForge
     {
         public override string name { get { return "reload"; } }
         public override string shortcut { get { return "rd"; } }
-        public override string type { get { return "build"; } }
+        public override string type { get { return "mod"; } }
         public override bool museumUsable { get { return false; } }
         public override LevelPermission defaultRank { get { return LevelPermission.Operator; } }
         public CmdReload() { }
