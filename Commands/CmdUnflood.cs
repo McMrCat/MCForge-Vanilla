@@ -22,7 +22,7 @@ namespace MCForge
     {
         public override string name { get { return "unflood"; } }
         public override string shortcut { get { return ""; } }
-        public override string type { get { return "other"; } }
+        public override string type { get { return "mod"; } }
         public override bool museumUsable { get { return false; } }
         public override LevelPermission defaultRank { get { return LevelPermission.Operator; } }
         public override void Help(Player p) { Player.SendMessage(p, "/unflood [liquid] - Unfloods the map you are on of [liquid]"); }
