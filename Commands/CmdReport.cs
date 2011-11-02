@@ -33,7 +33,7 @@ namespace MCForge
     {
         public override string name { get { return "report"; } }
         public override string shortcut { get { return ""; } }
-        public override string type { get { return "other"; } }
+        public override string type { get { return "information"; } }
         public override bool museumUsable { get { return true; } }
         public override LevelPermission defaultRank { get { return LevelPermission.Guest; } }
         public CmdReport() { }
