@@ -29,7 +29,7 @@ namespace MCForge
         public override string shortcut { get { return "ul"; } }
 
         // Determines which submenu the command displays in under /help.
-        public override string type { get { return "other"; } }
+        public override string type { get { return "mod"; } }
 
         // Determines whether or not this command can be used in a museum.  Block/map altering commands should be made false to avoid errors.
         public override bool museumUsable { get { return false; } }
