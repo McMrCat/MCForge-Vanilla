@@ -23,7 +23,7 @@ namespace MCForge
    {
       public override string name { get { return "kickall"; } }
       public override string shortcut { get { return ""; } }
-      public override string type { get { return "mod"; } }
+      public override string type { get { return "other"; } }
       public override bool museumUsable { get { return true; } }
       public override LevelPermission defaultRank { get { return LevelPermission.Operator; } }
       public override void Help(Player p){Player.SendMessage(p, "/kickall - Kicks all players from the server.");}
