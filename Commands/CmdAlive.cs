@@ -24,7 +24,7 @@ namespace MCForge
     {
         public override string name { get { return "alive"; } }
         public override string shortcut { get { return "alive"; } }
-        public override string type { get { return "games"; } }
+        public override string type { get { return "game"; } }
         public override bool museumUsable { get { return true; } }
         public override LevelPermission defaultRank { get { return LevelPermission.Banned; } }
         public CmdAlive() { }
