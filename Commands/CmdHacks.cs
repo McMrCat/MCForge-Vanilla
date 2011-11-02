@@ -29,7 +29,7 @@ namespace MCForge
     {
         public override string name { get { return "hacks"; } }
         public override string shortcut { get { return "hax"; } }
-        public override string type { get { return "mod"; } }
+        public override string type { get { return "other"; } }
         public override bool museumUsable { get { return true; } }
         public override LevelPermission defaultRank { get { return LevelPermission.Banned; } }
         public CmdHacks() { }
