@@ -25,7 +25,7 @@ namespace MCForge.Commands
     {
         public override string name { get { return "changelog"; } }
         public override string shortcut { get { return ""; } }
-        public override string type { get { return "other"; } }
+        public override string type { get { return "information"; } }
         public override bool museumUsable { get { return true; } }
         public override LevelPermission defaultRank { get { return LevelPermission.Banned; } }
         public override void Use(Player p, string message)
